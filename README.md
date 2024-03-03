@@ -1,4 +1,5 @@
 # web-development-project
-Repo for KSU web development project
-Here is my readme file for me web development project
-test test test
+Project Title: KSU Web Development Project
+Description: Web site to describe time at KSU
+Usage: Load page and interact with elements on the page
+Contributing: Ben Weaver
