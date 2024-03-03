@@ -4,12 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ben Weaver</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://kit.fontawesome.com/e93016b6d6.js" crossorigin="anonymous"></script>
 </head>
 <body>
   <nav class="navbar">
     <div class="navbar__container">
-        <a href="/" id="navbar__logo">Ben Weaver</a>
+        <a href="/" id="navbar__logo"><i class="fa-solid fa-feather"></i>Ben Weaver</a>
         <div class="navbar__toggle" id="mobile-menu">
             <span class="bar"></span>
             <span class="bar"></span>
@@ -22,23 +23,38 @@
                 </a>
             </li>
             <li class="navbar__item">
-                <a href="/tech.html" class="navbar__links">
-                    Tech
+                <a href="/about.html" class="navbar__links">
+                    About
                 </a>
             </li>
             <li class="navbar__item">
                 <a href="/" class="navbar__links">
-                    Products
+                    Recipes
                 </a>
             </li>
             <li class="navbar__btn">
                 <a href="/" class="button">
-                    Sign Up
+                    Contact
                 </a>
             </li>
         </ul>
     </div>
   </nav>
+
+  <!-- Hero Section -->
+  <div class="main">
+    <div class="main__container">
+        <div class="main__content">
+            <h1>BEN WEAVER</h1>
+            <h2>HELLO</h2>
+            <p>See What makes us different.</p>
+            <button class="main__btn"><a href="/">Get Started</a></button>
+        </div>
+        <div class="main__img--container"><img src="images/pic1.svg" alt="pic" id="main__img"></div>
+    </div>
+  </div>
+
+
   <script src="app.js"></script>
 </body>
 </html>
