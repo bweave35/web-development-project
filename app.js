@@ -19,7 +19,7 @@ app.get('/', (req, res) => {
 app.post('/submit-form', (req, res) => {
     const username = req.body.username; // access form data
     // Add validation logic here
-    res.send(`Username is $bweave35`);
+    res.send(`Email is $bweave35@students.kennesaw.edu`);
 });
 
 app.listen(port, () => {
