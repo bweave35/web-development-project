@@ -52,7 +52,11 @@
             <h1>Contact Me</h1>
             <p>Submit your contact information below</p>
             <!-- Click Here button to link to form for contact-->
-            <button class="main__btn"><a href="/">Click Here!</a></button>
+            <form action="/submit-form" method="post">
+                <label for="username">Email:</label>
+                <input type="text" id="username" name="username" required>
+                <button class="main__btn" type="submit">Submit</button>
+            </form>
         </div>
         
     </div>
