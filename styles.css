@@ -249,6 +249,32 @@
     color: #fff;
 }
 
+.about__page h1 {
+    font-size: 4rem;
+    background-color: #ff8177;
+    background-image: linear-gradient(to top, #ff0844 0%, #ffb199 100%);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+} 
+
+
+.about__page p {
+    margin-top: .5rem;
+    font-size: 1rem;
+    font-weight: 700;
+    color: #fff;
+}
+
+.about__page p2 {
+    margin-top: .5rem;
+    font-size: 1rem;
+    font-weight: 700;
+    color: #fff;
+}
+
 .main__content ul {
     margin-top: 1rem;
     font-size: 2rem;
